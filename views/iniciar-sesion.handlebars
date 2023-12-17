@@ -1,0 +1,31 @@
+<main class="contenedor">
+  <form action="/iniciar-sesion" class="default-form" method="post">
+    <div class="campo">
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Tu correo"
+        required
+      />
+    </div>
+    <div class="campo">
+      <label for="password">Contraseña:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Tu Contraseña"
+        required
+      />
+    </div>
+    <div class="campo acciones">
+      <a href="/crear-cuenta">Crear Cuenta</a>
+      <a href="reestablecer-password">Olvidé mis Contraseña</a>
+    </div>
+    <div class="campo">
+      <input type="submit" value="Iniciar Sesión" class="btn btn-azul" />
+    </div>
+  </form>
+</main>
